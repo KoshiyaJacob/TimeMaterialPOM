@@ -9,7 +9,7 @@ namespace TimeAndMaterialsUsingPOM.ClassesFolder
 {
     public class CreateEditDelete
     {
-        public void CreateTimeAndMaterial(IWebDriver driver)
+        public void Create_TimeAndMaterial(IWebDriver driver)
         {
             IWebElement clickcreate = driver.FindElement(By.XPath("//*[@id=\"container\"]/p/a"));
             clickcreate.Click();
@@ -64,7 +64,7 @@ namespace TimeAndMaterialsUsingPOM.ClassesFolder
 
         }
 
-        public void EditTimeAndMaterial(IWebDriver driver)
+        public void Edit_TimeAndMaterial(IWebDriver driver)
         {
             //Edit the given data
 
@@ -101,7 +101,7 @@ namespace TimeAndMaterialsUsingPOM.ClassesFolder
 
         }
 
-        public void DeleteTimeAndMaterial(IWebDriver driver)
+        public void Delete_TimeAndMaterial(IWebDriver driver)
         {
             IWebElement lastpageicon = driver.FindElement(By.LinkText("Go to the last page"));
             lastpageicon.Click();

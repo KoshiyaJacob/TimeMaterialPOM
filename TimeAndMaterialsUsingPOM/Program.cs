@@ -16,7 +16,7 @@ internal class Program
 
 
         LoginPage loginPageObj = new LoginPage();
-        loginPageObj.LoginAndHomePageVerification(driver);
+        loginPageObj.Login_HomePage_Verification(driver);
 
 
         TimeAndMaterial timeAndMaterialObj = new TimeAndMaterial();
@@ -25,11 +25,11 @@ internal class Program
 
         CreateEditDelete createEditDeleteObj = new CreateEditDelete();
 
-        createEditDeleteObj.CreateTimeAndMaterial(driver);
+        createEditDeleteObj.Create_TimeAndMaterial(driver);
 
-        createEditDeleteObj.EditTimeAndMaterial(driver);
+        createEditDeleteObj.Edit_TimeAndMaterial(driver);
 
-        createEditDeleteObj.DeleteTimeAndMaterial(driver);
+        createEditDeleteObj.Delete_TimeAndMaterial(driver);
 
     
 

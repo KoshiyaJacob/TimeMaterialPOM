@@ -11,7 +11,7 @@ namespace TimeAndMaterialsUsingPOM.ClassesFolder
     public class LoginPage
 
     {
-        public void LoginAndHomePageVerification(IWebDriver driver)
+        public void Login_HomePage_Verification(IWebDriver driver)
         {
 
             //Entering name, password and click on login
