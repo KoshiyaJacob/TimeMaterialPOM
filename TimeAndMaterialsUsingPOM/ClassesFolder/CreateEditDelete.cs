@@ -21,6 +21,7 @@ namespace TimeAndMaterialsUsingPOM.ClassesFolder
             
 
             IWebElement dropdownbutton = driver.FindElement(By.XPath("//*[@id=\"TypeCode_listbox\"]/li[2]"));
+            //*[@id="TypeCode_listbox"]/li[2]
             dropdownbutton.Click();
             
 

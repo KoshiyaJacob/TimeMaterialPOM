@@ -12,7 +12,7 @@ internal class Program
         IWebDriver driver = new ChromeDriver();
         driver.Navigate().GoToUrl("http://horse.industryconnect.io/Account/Login?ReturnUrl=%2f");
         driver.Manage().Window.Maximize();
-        driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
+        driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
 
 
         LoginPage loginPageObj = new LoginPage();
